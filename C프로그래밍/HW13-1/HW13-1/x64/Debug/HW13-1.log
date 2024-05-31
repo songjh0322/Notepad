@@ -1,4 +1,4 @@
 ﻿  HW13-1.c
-C:\Users\happy\OneDrive\4학년 1학기\C프로그래밍\HW13-1\HW13-1\HW13-1.c(40,13): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-C:\Users\happy\OneDrive\4학년 1학기\C프로그래밍\HW13-1\HW13-1\HW13-1.c(41,18): warning C4244: '초기화 중': 'double'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\happy\OneDrive\4학년 1학기\C프로그래밍\HW13-1\HW13-1\HW13-1.c(21,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\happy\OneDrive\4학년 1학기\C프로그래밍\HW13-1\HW13-1\HW13-1.c(23,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   HW13-1.vcxproj -> C:\Users\happy\OneDrive\4학년 1학기\C프로그래밍\HW13-1\x64\Debug\HW13-1.exe
