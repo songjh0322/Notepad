@@ -1,0 +1,39 @@
+TextField 에서
+
+value와 onValueChange만 디폴트값이 없다.?
+
+
+@Composable //comp 하고 엔터 치면 알아서.
+fun MainScreen() {
+    @Composable
+    fun MainScreen() {
+        Column { //WC 알트 엔터 알아서
+            Text(text = stringResource(id = R.string.calculate_tip))
+            TextField(value = "",
+                onValueChange = {},
+                label = { Text(text = stringResource(id = R.string.bill_amount)) },
+                leadingIcon = {
+                    Icon(
+                        imageVector = Icons.Default.Money,
+                        contentDescription = null
+                    )
+                }
+            )
+            TextField(value = "",
+                onValueChange = {},
+                label = { Text(text = stringResource(id = R.string.how_was_the_service)) },
+                leadingIcon = {
+                    Icon(
+                        imageVector = Icons.Default.Percent,
+                        contentDescription = null
+                    )
+                }
+            )
+            Row {
+                Text(text = stringResource(id = R.string.round_up_tip))
+                Switch(checked=true,onCheckedChange = null)
+            }
+            Text(text = stringResource(id = R.string.tip_amount,"$0.0"))
+        }
+    }
+}

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">sjh_midtest3196</string>
+    <string name="friendName">친구이름</string>
+    <string name="phoneNumber">전화번호</string>
+</resources>

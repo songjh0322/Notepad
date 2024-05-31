@@ -1,0 +1,12 @@
+companion object 
+: 객체를 생성하지 않아도 클래스의 이름만 있어도 접근이 가능하다.
+
+object 클래스
+사용방법 
+클래스의 이름을 객체처럼 사용하면 됨
+->익명 객체가 필요로 할 때 유용하게 사용됨
+
+
+val obj = object : MouseAdapter()
+에서 보면 object에 클래스 이름이 없음
+
